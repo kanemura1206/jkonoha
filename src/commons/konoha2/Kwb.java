@@ -16,7 +16,7 @@ public class Kwb {
 			/*karray_expand(_ctx, m, m->bytesize + byteLen);*/
 		}
 		/*memcpy(m.bytebuf + m.byteSize, data, byteLen);*/
-		m.bytebuf += m.byteSize + data.substring(0,byteLen + 1);	
+		m.bytebuf += m.byteSize + data.substring(0,byteLen + 1); // TODO
 		m.byteSize += byteLen;
 	}
 
